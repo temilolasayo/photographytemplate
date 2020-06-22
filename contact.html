@@ -1,374 +1,811 @@
 <!DOCTYPE html>
+
+
 <html>
-  <head>
-    <title>Contact Us</title>
-    <meta charset="utf-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
-    <!-- <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />-->
-    <!-- <link href= "https://fonts.googleapis.com/css/family=Montserrat" rel="stylesheet" /> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
+
+
+<head>
 
 
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <title>iCapture</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="styles/index.css"> -->
-      <link rel="stylesheet" href="styles/portfolio.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/contact.css">
 
 
-    <style>
-          @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-            li,
-            a,
-            header footer {
-        font-family: "Montserrat";
-        font-weight: 500;
-        font-size: 13px;
-        text-decoration: none;
-        color: white;
+</head>
+
+
+
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+
+
+
+
+
+
+  li,
+
+  a,
+
+  header footer {
+
+    font-family: "Montserrat";
+
+    font-weight: 500;
+
+    font-size: 13px;
+
+    text-decoration: none;
+
+    color: white;
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .page-footer {
+
+
+
+    margin-bottom: 10px;
+  }
+
+
+
+  .subscribe {
+
+    border: 2px solid #4F5F76;
+
+    box-sizing: border-box;
+
+    border-radius: 90px;
+
+    color: #4F5F76;
+
+    width: 20%;
+
+
+
+  }
+
+
+
+  .btn-round {
+
+    border-radius: 25px;
+
+  }
+
+
+
+  .subscribe:hover {
+
+    color: white;
+
+  }
+
+
+
+  .email-input {
+
+    border: 0;
+
+    border-bottom: 2px;
+
+    outline: none;
+
+    background-color: transparent;
+
+    width: 100%;
+
+
+
+  }
+
+  .btn-primary.custom-btn {
+    background-color: #091f36;
+    border-color: #fff;
+    border-radius: 88px;
+    width: 150px;
+    color: #FFFFFF;
+  }
+
+  .btn-primary.custom-btn:hover {
+    background-color: #091f36;
+    border-color: #fff;
+    border-radius: 88px;
+    width: 150px;
+    color: #FFFFFF;
+  }
+
+  .btn-primary.custom-btn:focus {
+    background-color: #091f36;
+    border-color: #fff;
+    border-radius: 88px;
+    width: 150px;
+    color: #FFFFFF;
+  }
+
+  .addressIcon {
+    color: #091f36;
+  }
+
+  .addressTitle {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    color: #091F36;
+
+  }
+
+  .addressTitleMobile {
+    font-size: 24px;
+    line-height: 29px;
+    color: #091F36;
+
+  }
+
+  .addressBody {
+    color: #000000;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+
+  .iframeStyle iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .page-footer {
+    margin-bottom: 10px;
+  }
+
+  .page-footer {
+    margin-bottom: 10px;
+  }
+
+
+  @media screen and (max-width: 780px) {
+    input {
+      margin: 0 0 20px 0;
     }
 
-      .btn-primary.custom-btn 
-        {
-          background-color: #091f36;
-          border-color: #fff;
-          border-radius: 88px;
-          width: 150px;
-          color: #FFFFFF;
-        }
-
-         .btn-primary.custom-btn:hover
-         {
-          background-color: #091f36;
-          border-color: #fff;
-          border-radius: 88px;
-          width: 150px;
-          color: #FFFFFF;
-         }
-                  .btn-primary.custom-btn:focus
-         {
-          background-color: #091f36;
-          border-color: #fff;
-          border-radius: 88px;
-          width: 150px;
-          color: #FFFFFF;
-         }
-        
-     .addressIcon
-      {
-        color: #091f36;
-      }
-
-      .addressTitle
-      {
-        font-weight:600; 
-        font-size: 35px; 
-        line-height: 43px;
-        color: #091F36;
-
-      }
-            
-      .addressBody
-      {
-        color: #000000;
-        font-weight:300; 
-        font-size: 24px;
-        line-height: 29px; 
-      }
-
-           .iframeStyle iframe 
-      {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
-
-          .page-footer {
-        margin-bottom: 10px;
+    .get_in_touch {
+      margin-top: 220px;
     }
-
-        .page-footer {
-        margin-bottom: 10px;
-    }
+  }
+</style>
 
 
-      @media screen and (max-width: 780px){
-        input{
-          margin: 0 0 20px 0;
-        }
-      .get_in_touch{
-          margin-top: 220px;
-        }
-      }
-    </style>
-  </head>
 
 
-  <body>
-    <!--  Header goes in here -->
+
+</head>
+
+
+
+<body>
+
   <div class="desktop-container">
-  
+
     <div class="page-header">
-  
+
       <div class="p-3 mb-2 bg-dark"></div>
 
-<nav class="navbar navbar-light" style="background-color: #091f36;">
-  <a class="navbar-brand" style="color: white;" href="#">[ iCAPTURE ]</a>
-  <ul class="nav justify-content-center">
-   <li class="nav-item">
-      <a class="nav-link active" style="color: white;" href="#">HOME</a>
-    <li class="nav-item">
-      <a class="nav-link" style="color: white;" href="#">SERVICES</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" style="color: white;"  href="portfolio.html">PORTFOLIO</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link active" style="color: yellow;"href="contact.html">CONTACT</a>
-    </li>
-  </ul>
-  <ul class="nav justify-content-end">
-   <li class="nav-item">
-      <a class="nav-link"><i class="fa fa-twitter"></i></a>
-    </li>
-    <li class="nav-item">
-<a class="nav-link"><i class="fa fa-facebook-f"></i></a>
-  </li>
-    <li class="nav-item">
-      <a class="nav-link"><i class="fa fa-instagram"></i></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link"><i class="fa fa-pinterest"></i></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link"><i class="fa fa-search"></i></a>
-  </ul>
-  </div>
-</nav>
-</div>
-</div>
-</div>
+
+
+      <nav class="navbar navbar-light" style="background-color: #091f36;">
+
+        <a class="navbar-brand" style="color: white;" href="#">[ iCAPTURE ]</a>
+
+
+
+
+
+
+
+        <ul class="nav justify-content-center">
+
+          <li class="nav-item">
+
+            <a class="nav-link active" style="color: white;" href="#">HOME</a>
+
+          <li class="nav-item">
+
+            <a class="nav-link" style="color: white;" href="#">SERVICES</a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="nav-link" style="color: yellow;" href="#">PORTFOLIO</a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="nav-link active" style="color: white;" href="#">CONTACT</a>
+
+          </li>
+
+        </ul>
+
+
+
+
+
+
+
+        <ul class="nav justify-content-end">
+
+          <li class="nav-item">
+
+            <a class="nav-link"><i class="fab fa-twitter"></i></a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="nav-link"><i class="fab fa-instagram"></i></a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="nav-link"><i class="fab fa-pinterest"></i></a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="nav-link"><i class="fa fa-search"></i></a>
+
+        </ul>
+
+    </div>
+
+    </nav>
+
+
+
 
     <!-- Contact us  -->
     <section>
-  <div class="container desktop">
-    <div class="row my-5  pb-5">
-      <div class="col-lg">
-                <div class="row" style="height: 400px;">
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-fluid iframeStyle"><iframe
-                      src="https://maps.google.com/maps?q=Lagos&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                      style="border: 0;"></iframe>
-                    </div>
-                
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pl-5 pt-5">
-                
-                    <h6 class="addressTitle pl-4 pb-3">Reach Us</h6>
+      <div class="container desktop">
+        <div class="row my-5  pb-5">
+          <div class="col-lg">
+            <div class="row" style="height: 400px;">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-fluid iframeStyle"><iframe
+                  src="https://maps.google.com/maps?q=Lagos&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                  style="border: 0;"></iframe>
+              </div>
 
-                    <div class="addressBody">
-                      <div><i class="fa fa-home fa-fw addressIcon"></i> Hng Street Opp Slack Avenue<br/>
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pl-5 pt-5">
+
+                <h6 class="addressTitle pl-4 pb-3">Reach Us</h6>
+
+                <div class="addressBody">
+                  <div><i class="fa fa-home fa-fw addressIcon"></i> Hng Street Opp Slack Avenue<br />
                     <span class="pl-4 px-4 mx-3 mr-3"> Nigeria.</span> <br />
-                    <span class="pl-4 px-4 mx-3 mr-3">P.O.Box 343, Avengers Team,</span><br/>
+                    <span class="pl-4 px-4 mx-3 mr-3">P.O.Box 343, Avengers Team,</span><br />
                     <span class="pl-4 px-4 mx-3 mr-3"> Nig.</span>
-                    </div>
-                    <!-- <div><i class="fa fa-home fa-fw" class="hidden"></i> P. O. Box 343, Avengers Team, Nig
-                    </div> -->
-                      <div><i class="fa fa fa-phone fa-fw pt-3 addressIcon"></i> +234 562 225 2222
-                         <br /><span class="pl-4 px-4 mx-3 mr-3">+234 562 225 2222 </span>
-                         <br /><span  class="pl-4 px-4 mx-3 mr-3">+234 562 225 2222</span>
-                      </div>
-                      <div><i class="fa fa-envelope fa-lg fa-fw pt-3 addressIcon"></i> icapture@gmail.com</div>
-                    </div>
-                    <div class="pt-5 pl-5">
-                            <i class="fa fa-twitter fa-3x"></i>
-                            <i class="fa fa-instagram fa-3x pl-5"></i>
-                            <i class="fa fa-facebook-f fa-3x pl-5"></i>
-                            <i class="fa fa-pinterest fa-3x pl-5 pb-5"></i>
-                    </div>
-
-
-                
                   </div>
+                  <!-- <div><i class="fa fa-home fa-fw" class="hidden"></i> P. O. Box 343, Avengers Team, Nig
+                        </div> -->
+                  <div><i class="fa fa fa-phone fa-fw pt-3 addressIcon"></i> +234 562 225 2222
+                    <br /><span class="pl-4 px-4 mx-3 mr-3">+234 562 225 2222 </span>
+                    <br /><span class="pl-4 px-4 mx-3 mr-3">+234 562 225 2222</span>
+                  </div>
+                  <div><i class="fa fa-envelope fa-lg fa-fw pt-3 addressIcon"></i> icapture@gmail.com</div>
                 </div>
-      </div>
-    </div>
+                <div class="pt-5 pl-5">
+                  <i class="fab fa-twitter fa-3x"></i>
+                  <i class="fab fa-instagram fa-3x pl-5"></i>
+                  <i class="fab fa-facebook-f fa-3x pl-5"></i>
+                  <i class="fab fa-pinterest fa-3x pl-5 pb-5"></i>
+                </div>
 
-      <div class="container-fluid pb-5 py-5 pt-5">
 
-        
-        <div class="get_in_touch">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 mt-3 text-center">
-            <h4 style="font-size: 48px; font-weight: bold; line-height: 59px"><b>GET IN TOUCH</h4></b></h4>
-            <hr width="400" class="mt-2 mb-3" style="border: 2px solid #4F5F76;" />
-            <h4 class="pb-4" >Send us a mail for more enquiries</h4>
+
+              </div>
             </div>
-            </div>
-            </div>
+          </div>
+        </div>
 
-            <form>
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <input
-                    type="text"
-                    class="form-control bg-light"
-                    id="firstname"
-                    name="firstname"
-                    placeholder="FIRST NAME"
-                  />
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <input
-                    type="text"
-                    class="form-control bg-light"
-                    id="lastname"
-                    name="lastname"
-                    placeholder="LAST NAME"
-                  />
-                </div>
-              </div>
-              <br />
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <input
-                    type="text"
-                    class="form-control bg-light"
-                    id="phoneNumber"
-                    name="phoneNumber"
-                    placeholder="PHONE NUMBER"
-                  />
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                  <input
-                    type="text"
-                    class="form-control bg-light"
-                    id="zipCode"
-                    name="zipCode"
-                    placeholder="ZIP CODE"
-                  />
-                </div>
-              </div>
-              <br />
-              <div class="row">
-                <div class="col">
-                  <input
-                    type="text"
-                    class="form-control bg-light"
-                    id="email"
-                    name="email"
-                    placeholder="EMAIL"
+        <div class="container-fluid pb-5 py-5 pt-5">
 
-                  />
-                </div>
+
+          <div class="get_in_touch">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 mt-3 text-center">
+                <h4 style="font-size: 48px; font-weight: bold; line-height: 59px"><b>GET IN TOUCH</h4></b></h4>
+                <hr width="400" class="mt-2 mb-3" style="border: 2px solid #4F5F76;" />
+                <h4 class="pb-4">Send us a mail for more enquiries</h4>
               </div>
-                            <br />
-                            <div class="row">
-                              <div class="col">
-                                <input type="text" class="form-control bg-light" id="subject" name="subject" placeholder="SUBJECT"
-                                 />
-                              </div>
-                            </div>
-              <br />
-              <div class="row">
-                <div class="col">
-                  <textarea
-                    class="form-control bg-light"
-                    id="message"
-                    name="message"
-                    placeholder="MESSAGE"
-                    rows="6"
-                  ></textarea>
-                </div>
+            </div>
+          </div>
+
+          <form>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <input type="text" class="form-control bg-light" id="firstname" name="firstname"
+                  placeholder="FIRST NAME" />
               </div>
-              <br />
-              <div class="text-center">
-                <button
-                  type="submit"
-                  class="btn btn-primary custom-btn"
-                >
-                  Submit
-                </button>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <input type="text" class="form-control bg-light" id="lastname" name="lastname"
+                  placeholder="LAST NAME" />
               </div>
-            </form>
-      </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <input type="text" class="form-control bg-light" id="phoneNumber" name="phoneNumber"
+                  placeholder="PHONE NUMBER" />
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <input type="text" class="form-control bg-light" id="zipCode" name="zipCode" placeholder="ZIP CODE" />
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control bg-light" id="email" name="email" placeholder="EMAIL" />
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control bg-light" id="subject" name="subject" placeholder="SUBJECT" />
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col">
+                <textarea class="form-control bg-light" id="message" name="message" placeholder="MESSAGE"
+                  rows="6"></textarea>
+              </div>
+            </div>
+            <br />
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary custom-btn">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </section>
 
-    <!-- Footer goes in here -->
-<footer class="page-footer" style="background-color: #091f36;">
-  <div class="container-fluid text-center text-md-left">
-    <div class="row pt-3 py-3">
-      <div class="col-md-6">
-        <h5 style="color: #4F5F76; margin-top: 10px; font-family: Montserrat; font-weight: 600; font-size: 39px;">
-          [iCAPTURE ]</h5>
-        <form class="my-4">
-          <div class="form-group">
-            <label for="exampleInputEmail1"></label>
-            <input type="email" class="email-input" id="exampleInputEmail1" placeholder="Enter your E-mail">
+
+
+
+
+    <footer class="page-footer" style="background-color: #091f36;">
+
+
+
+
+
+      <div class="container-fluid text-center text-md-left">
+
+
+
+
+
+        <div class="row">
+
+
+
+
+
+          <div class="col-md-6">
+
+            <h5 style="color: #4F5F76; margin-top: 10px; font-family: Montserrat; font-weight: 600; font-size: 39px;">
+              [
+
+              iCAPTURE ]</h5>
+
+            <form class="my-4">
+
+              <div class="form-group">
+
+                <label for="exampleInputEmail1"></label>
+
+                <input type="email" class="email-input" id="exampleInputEmail1" placeholder="Enter your E-mail">
+
+              </div>
+
+              <button type="submit" class="btn btn-round subscribe">Subscribe</button>
+
+            </form>
+
+            <p style="color: white;">Always find out about our exclusive deals,<br>latest shot and top trend
+            </p>
+
+
+
           </div>
-          <button type="submit" class="btn btn-round subscribe">Subscribe</button>
+
+
+
+
+
+          <div class="col-md-3 mb-md-0 mb-3" style="justify-content: center;">
+
+
+
+
+
+            <h5 style="color: #feda6a;">Reach Us</h5>
+
+
+
+            <p style="color: white;">Hng Street, Opp Slack Avenue<br>Nigeria</p>
+
+            <p class="d-block" style="color: white;">+234 (0) 813 7901 167</p>
+
+            <p class="d-block" style="color: white;">E-mail: icapture@gmail.com</p>
+
+            <ul class="nav justify-content-end" style="margin-right: 105px;">
+
+              <li class="nav-item">
+
+                <a class="nav-link"><i class="fab fa-twitter"></i></a>
+
+              </li>
+
+              <li class="nav-item">
+
+                <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+
+              </li>
+
+              <li class="nav-item">
+
+                <a class="nav-link"><i class="fab fa-instagram"></i></a>
+
+              </li>
+
+              <li class="nav-item">
+
+                <a class="nav-link"><i class="fab fa-pinterest"></i></a>
+
+              </li>
+
+            </ul>
+
+
+
+          </div>
+
+
+
+          <div class="col-md">
+
+            <h5 style="color: #feda6a;">Recent Shots</h5>
+
+
+
+            <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
+
+            <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
+
+            <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
+
+            <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
+
+            <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
+
+          </div>
+
+
+
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+    </footer>
+
+
+
+  </div>
+
+
+
+  <div class="footer-copyright py-2" style="background-color: #131212;"></div>
+
+
+  <div class="mobile-container">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #091f36;">
+      <div class="nav-item">
+        <div class="nav-button blue-btn12 no-pad-side navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <div class="nav-line"></div>
+          <div class="nav-line"></div>
+          <div class="nav-line"></div>
+        </div>
+      </div>
+      <div class="head-container">
+        <a class="navbar-brand head" style="color: white;" href="#">[ iCAPTURE ]</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mobile-nav-wrapper">
+          <ul class="navbar-nav main-links">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">HOME
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">PORTOFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">CONTACT</a>
+            </li>
+          </ul>
+          <hr class="divider">
+          <div class="socials nav-socials no-pad-side">
+            <div class="social  col-sm-3">
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="social col-sm-3">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="social col-sm-3">
+              <a href="#"><i class="fab fa-facebook-square"></i></a>
+            </div>
+            <div class="social col-sm-3">
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+    <div class="container-fluid add-pad" style="margin-top: 56px;">
+      <div class="row">
+
+        <div class="col-sm-12 img-fluid iframeStyle"><iframe
+            src="https://maps.google.com/maps?q=Lagos&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            style="border: 0;"></iframe>
+        </div>
+      </div>
+      <div class="row">
+        <h6 class="addressTitleMobile pl-4 pb-3">Reach Us</h6>
+
+        <div class="addressBody">
+          <div><i class="fa fa-home fa-fw addressIcon"></i> Hng Street Opp Slack<br />
+            <span class="pl-4 px-4 mx-3 mr-3"> Avenue</span>
+            <span class="pl-4 px-4 mx-3 mr-3"> Nigeria.</span> <br />
+            <span class="pl-4 px-4 mx-3 mr-3">P.O.Box 343, </span><br />
+            <span class="pl-4 px-4 mx-3 mr-3">Avengers Team, Nig.</span>
+          </div>
+          <!-- <div><i class="fa fa-home fa-fw" class="hidden"></i> P. O. Box 343, Avengers Team, Nig
+                            </div> -->
+          <div><i class="fa fa fa-phone fa-fw pt-3 addressIcon"></i> +234 562 225 2222
+            <br /><span class="pl-4 px-4 mx-3 mr-3">+234 562 225 2222 </span>
+            <br /><span class="pl-4 px-4 mx-3 mr-3">+234 562 225 2222</span>
+          </div>
+          <div><i class="fa fa-envelope fa-lg fa-fw pt-3 addressIcon"></i> icapture@gmail.com</div>
+        </div>
+      </div>
+
+      <div class="row pt-4">
+        <i class="fab fa-twitter fa-3x"></i>
+        <i class="fab fa-instagram fa-3x pl-5"></i>
+        <i class="fab fa-facebook-f fa-3x pl-5"></i>
+        <i class="fab fa-pinterest fa-3x pl-5"></i>
+      </div>
+
+
+      <div class="container-fluid">
+
+        <div class="row pt-5">
+          <div class="col-lg-12 text-center">
+            <h4 style="font-size: 30px; font-weight: bold; line-height: 25px"><b>GET IN TOUCH</h4></b></h4>
+            <hr width="400" class="mt-2 mb-3" style="border: 2px solid #4F5F76;" />
+            <h4 class="pb-4">Send us a mail for more enquiries</h4>
+          </div>
+        </div>
+
+        <form>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <input type="text" class="form-control bg-light" id="firstname" name="firstname"
+                placeholder="FIRST NAME" />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <input type="text" class="form-control bg-light" id="lastname" name="lastname" placeholder="LAST NAME" />
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <input type="text" class="form-control bg-light" id="phoneNumber" name="phoneNumber"
+                placeholder="PHONE NUMBER" />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <input type="text" class="form-control bg-light" id="zipCode" name="zipCode" placeholder="ZIP CODE" />
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control bg-light" id="email" name="email" placeholder="EMAIL" />
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col">
+              <input type="text" class="form-control bg-light" id="subject" name="subject" placeholder="SUBJECT" />
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col">
+              <textarea class="form-control bg-light" id="message" name="message" placeholder="MESSAGE"
+                rows="6"></textarea>
+            </div>
+          </div>
+          <br />
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary custom-btn">
+              Submit
+            </button>
+          </div>
         </form>
-        <p style="color: white;">Always find out about our exclusive deals,<br>latest shot and top trend
-        </p>
       </div>
-      <div class="col-md-3 mb-md-0 mb-3" style="justify-content: center;">
-        <h5 style="color: #feda6a;">Reach Us</h5>
-        <p style="color: white;">Hng Street, Opp Slack Avenue<br>Nigeria</p>
-        <p class="d-block" style="color: white;">+234 (0) 813 7901 167</p>
-        <p class="d-block" style="color: white;">E-mail: icapture@gmail.com</p>
-        <ul class="nav justify-content-end" style="margin-right: 105px;">
-          <li class="nav-item">
-            <a class="nav-link"><i class="fa fa-twitter"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><i class="fa fa-facebook-f"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><i class="fa fa-instagram"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link"><i class="fa fa-pinterest"></i></a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-md">
-        <h5 style="color: #feda6a;">Recent Shots</h5>
-        <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
-        <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
-        <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
-        <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
-        <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
-      </div>
+
+
+
     </div>
   </div>
-</footer>
 
-  
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <footer id="footer">
+    <div class="container">
+      <div class="subscriber col-sm-12">
+        <div class="brnd-header col-sm-12">
+          <h2 class="footer-brand">
+            [iCAPTURE]
+          </h2>
+        </div>
+        <form class="form no-pad-side col-sm-12" action="">
+          <input type="email" class="email-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+          <div class="submit-area no-pad-side col-sm-12">
+            <button type="submit" class="btn btn-round">Subscribe</button>
+          </div>
+        </form>
+        <div class="no-pad-side p-cover col-sm-12">
+          <p class="paragraph">Always find out about our exclusive deals, latest shot and top trend</p>
+        </div>
+
+        <div class="footer-elm no-pad-side col-sm-12">
+          <h3 class="shot-header">Recent Shots</h3>
+          <a href="" class="shot-link">Nulla Vitae eit libero elit non</a>
+          <a href="" class="shot-link">Nulla Vitae eit libero elit non</a>
+          <a href="" class="shot-link">Nulla Vitae eit libero elit non</a>
+          <a href="" class="shot-link">Nulla Vitae eit libero elit non</a>
+        </div>
+        <div class="footer-elm no-pad-side col-sm-12">
+          <h3 class="shot-header">Reach Out</h3>
+          <p class="shot-link">
+            1600 Pennsylvania Ave NW,<br>Washington, DC 20500
+          </p>
+          <p class="shot-link">
+            +1 (123) 456–7890
+          </p>
+          <p class="shot-link">
+            E-mail: icapture@gmail.com
+          </p>
+        </div>
+        <div class="socials no-pad-side">
+          <div class="social  col-sm-3">
+            <a href=""><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="social col-sm-3">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="social col-sm-3">
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+          </div>
+          <div class="social col-sm-3">
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+
+
+  <div id="img-display">
+    <div class="full-img">
+      <div class="shifter" id="backward">
+
+      </div>
+      <div class="shifter" id="forward">
+
+      </div>
+    </div>
+    <div class="closer">
+      <div class="x-line"></div>
+      <div class="x-line"></div>
+    </div>
+  </div>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <script src="js/imageDisplay.js"></script>
 
-  </body>
+</body>
+
+
 </html>
