@@ -10,8 +10,8 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" -->
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />-->
     <!-- <link href= "https://fonts.googleapis.com/css/family=Montserrat" rel="stylesheet" /> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -27,10 +27,22 @@
   <title>iCapture</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles/index.css">
+  <!-- <link rel="stylesheet" href="styles/index.css"> -->
+      <link rel="stylesheet" href="styles/portfolio.css">
+
 
     <style>
           @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+            li,
+            a,
+            header footer {
+        font-family: "Montserrat";
+        font-weight: 500;
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+    }
 
       .btn-primary.custom-btn 
         {
@@ -89,6 +101,14 @@
         height: 100%;
       }
 
+          .page-footer {
+        margin-bottom: 10px;
+    }
+
+        .page-footer {
+        margin-bottom: 10px;
+    }
+
 
       @media screen and (max-width: 780px){
         input{
@@ -104,121 +124,53 @@
 
   <body>
     <!--  Header goes in here -->
-  <!--Navigation-->
-  <div class="container-fluid">
+  <div class="desktop-container">
   
-    <!-- DESKTOPO NAVIGATION -->
-    <nav class="navbar navbar-expand-lg fixed-top desktop">
-      <a class="navbar-brand" href="#">
-        <img src="images/[ iCAPTURE ].png" alt="logo">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <a class="nav-link text-white" style="color: #FEDA6A;" href="index.html">HOME</a>
-          <span class="sr-only">(current)</span>
-          <a class="nav-link text-white" href="#">SERVICES</a>
-          <a class="nav-link text-white" href="portfolio.html">PORTFOLIO</a>
-          <a class="nav-link active" style="color: #FEDA6A;">CONTACT</a>
-        </ul>
+    <div class="page-header">
   
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-facebook-f"></i>
-        <i class="fa fa-pinterest"></i>
-        <i class="fa fa-search" style="color: #fff; margin-left: 5%;"></i>
-    </nav>
-    <!-- MOBILE NAVIGATION -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light mobile text-center">
-      <a class="navbar-brand mr-auto" href="#">[iCAPTURE]</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="mobile-nav-wrapper mr-auto">
-          <ul class="navbar-nav ">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">HOME
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SERVICES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">PORTOFOLIO</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="contact.html">CONTACT</a>
-            </li>
-          </ul>
-        </div>
-  
-        <div class="icon ">
-          <span class="fa-icon">
-            <i class="fa fa-twitter"></i>
-          </span>
-          <span class="mx-4 fa-icon">
-            <i class="fa fa-instagram"></i>
-          </span>
-          <span class="mr-4 fa-icon">
-            <i class="fa fa-facebook-f"></i>
-          </span>
-          <span class="mr-4 fa-icon">
-            <i class="fa fa-pinterest"></i>
-          </span>
-          <span class="fa-icon">
-            <i class="fa fa-search" style="color: #fff; margin-left: 5%;"></i>
-          </span>
-        </div>
-      </div>
-      <!-- MOBILE NAVIGATION ENDS -->
-    </nav>
-  </div>
-  
-  
-  
-  <!--Jumbotron-->
-  <div class="jumbotron jumbotron-fluid text-center">
-    <div class="container text-white" style="padding-top: 220px;">
-      <h1 class="display-4">iCAPTURE PHOTOGRAPHY</h1>
-      <div class="container new pt-3">
-        <h3 class="text-center">NEW-SCHOOL PHOTOGRAPHY</h3>
-      </div>
-    </div>
-  </div>
-  <header class="header mobile text-center ">
-    <div class="container">
-      <div class="heading row pt-5">
-        <h1 class="display-4">iCAPTURE PHOTOGRAPHY</h1>
-      </div>
-      <p>NEW-SCHOOL PHOTOGRAPHY</p>
-  
-      <div>
-        <p class="py-3 container">
-          iCapture is a Photography Studio based in
-          New York.
-          We are a team of photographers who
-  
-          take photographs with creativity, concept
-          and passion.
-        </p>
-  
-        <div class="wedo container text-right">
-          <span class="item">We Plan</span>
-          <span class="item">We Shoot</span>
-          <span class="item">We Retouch</span>
-          <span class="item">We Finailze</span>
-        </div>
-      </div>
-    </div>
-  </header>
+      <div class="p-3 mb-2 bg-dark"></div>
 
+<nav class="navbar navbar-light" style="background-color: #091f36;">
+  <a class="navbar-brand" style="color: white;" href="#">[ iCAPTURE ]</a>
+  <ul class="nav justify-content-center">
+   <li class="nav-item">
+      <a class="nav-link active" style="color: white;" href="#">HOME</a>
+    <li class="nav-item">
+      <a class="nav-link" style="color: white;" href="#">SERVICES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" style="color: white;"  href="portfolio.html">PORTFOLIO</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" style="color: yellow;"href="contact.html">CONTACT</a>
+    </li>
+  </ul>
+  <ul class="nav justify-content-end">
+   <li class="nav-item">
+      <a class="nav-link"><i class="fa fa-twitter"></i></a>
+    </li>
+    <li class="nav-item">
+<a class="nav-link"><i class="fa fa-facebook-f"></i></a>
+  </li>
+    <li class="nav-item">
+      <a class="nav-link"><i class="fa fa-instagram"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"><i class="fa fa-pinterest"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"><i class="fa fa-search"></i></a>
+  </ul>
+  </div>
+</nav>
+</div>
+</div>
+</div>
 
     <!-- Contact us  -->
     <section>
   <div class="container desktop">
-    <div class="row my-5">
+    <div class="row my-5  pb-5">
       <div class="col-lg">
                 <div class="row" style="height: 400px;">
                   <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 img-fluid iframeStyle"><iframe
@@ -232,23 +184,23 @@
 
                     <div class="addressBody">
                       <div><i class="fa fa-home fa-fw addressIcon"></i> Hng Street Opp Slack Avenue<br/>
-                    <span class="pl-5 px-5 mx-3 mr-3"> Nigeria.</span> <br />
-                    <span class="pl-5 px-5  mx-3 mr-3">P.O.Box 343, Avengers Team,</span><br/>
-                    <span class="pl-5 px-5  mx-3 mr-3"> Nig.</span>
+                    <span class="pl-4 px-4 mx-3 mr-3"> Nigeria.</span> <br />
+                    <span class="pl-4 px-4 mx-3 mr-3">P.O.Box 343, Avengers Team,</span><br/>
+                    <span class="pl-4 px-4 mx-3 mr-3"> Nig.</span>
                     </div>
                     <!-- <div><i class="fa fa-home fa-fw" class="hidden"></i> P. O. Box 343, Avengers Team, Nig
                     </div> -->
                       <div><i class="fa fa fa-phone fa-fw pt-3 addressIcon"></i> +234 562 225 2222
-                         <br /><span class="pl-5 px-5 mx-3 mr-3">+234 562 225 2222 </span>
-                         <br /><span  class="pl-5 px-5 mx-3 mr-3">+234 562 225 2222</span>
+                         <br /><span class="pl-4 px-4 mx-3 mr-3">+234 562 225 2222 </span>
+                         <br /><span  class="pl-4 px-4 mx-3 mr-3">+234 562 225 2222</span>
                       </div>
                       <div><i class="fa fa-envelope fa-lg fa-fw pt-3 addressIcon"></i> icapture@gmail.com</div>
                     </div>
                     <div class="pt-5 pl-5">
-                            <i class="fa fa-twitter fa-5x"></i>
-                            <i class="fa fa-instagram fa-lg pl-3"></i>
-                            <i class="fa fa-facebook-f fa-lg pl-3"></i>
-                            <i class="fa fa-pinterest fa-lg pl-3"></i>
+                            <i class="fa fa-twitter fa-3x"></i>
+                            <i class="fa fa-instagram fa-3x pl-5"></i>
+                            <i class="fa fa-facebook-f fa-3x pl-5"></i>
+                            <i class="fa fa-pinterest fa-3x pl-5 pb-5"></i>
                     </div>
 
 
@@ -258,7 +210,7 @@
       </div>
     </div>
 
-      <div class="container-fluid" >
+      <div class="container-fluid pb-5 py-5 pt-5">
 
         
         <div class="get_in_touch">
@@ -360,35 +312,54 @@
     </section>
 
     <!-- Footer goes in here -->
-  <footer class="mt-5">
-    <div class="info">
-      <div class="mail">
-        <img src="images/[ iCAPTURE ]2.png" alt=""><br><br>
-        <form action="">
-          <input type="email" placeholder="Enter your E-mail"><br><br>
-          <button class="btn">Subscribe</button>
-        </form><br>
-        <p>Always find out about our exclusive deals, <br>latest shot and top trend.</p>
+<footer class="page-footer" style="background-color: #091f36;">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row pt-3 py-3">
+      <div class="col-md-6">
+        <h5 style="color: #4F5F76; margin-top: 10px; font-family: Montserrat; font-weight: 600; font-size: 39px;">
+          [iCAPTURE ]</h5>
+        <form class="my-4">
+          <div class="form-group">
+            <label for="exampleInputEmail1"></label>
+            <input type="email" class="email-input" id="exampleInputEmail1" placeholder="Enter your E-mail">
+          </div>
+          <button type="submit" class="btn btn-round subscribe">Subscribe</button>
+        </form>
+        <p style="color: white;">Always find out about our exclusive deals,<br>latest shot and top trend
+        </p>
       </div>
-      <div class="reach">
-        <h4 class="reach">Reach Us</h4>
-        <p>1600 Pennsylvania Ave NW, <br> Washington, DC 20500</p>
-        <p>+1 (123) 456–7890</p>
-        <p>E-mail: icapture@gmail.com</p>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
-        <i class="fa fa-facebook-f"></i>
-        <i class="fa fa-pinterest"></i>
+      <div class="col-md-3 mb-md-0 mb-3" style="justify-content: center;">
+        <h5 style="color: #feda6a;">Reach Us</h5>
+        <p style="color: white;">Hng Street, Opp Slack Avenue<br>Nigeria</p>
+        <p class="d-block" style="color: white;">+234 (0) 813 7901 167</p>
+        <p class="d-block" style="color: white;">E-mail: icapture@gmail.com</p>
+        <ul class="nav justify-content-end" style="margin-right: 105px;">
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-facebook-f"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><i class="fa fa-pinterest"></i></a>
+          </li>
+        </ul>
       </div>
-      <div class="shot">
-        <h4 class="reach">Recent Shots</h4>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p>Lorem ipsum dolor sit amet</p>
-        <p>Lorem ipsum dolor sit amet</p>
+      <div class="col-md">
+        <h5 style="color: #feda6a;">Recent Shots</h5>
+        <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
+        <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
+        <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
+        <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
+        <a href="#" class="d-block" style="color: white;">Nulla Vitae eit libero elit non</a>
       </div>
     </div>
-  </footer>
+  </div>
+</footer>
+
   
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
